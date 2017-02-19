@@ -25,7 +25,7 @@
         <h4>Description</h4>
 <p>Chemical process accidents are often the result of an unexpected interaction between automated process equipment and operators. In the drive to improve safety and reliability, chemical process facilities tend to rely heavily on automation, using sophisticated instrumentation, computers, and programmable logic controllers to run their plants. In an effort to improve energy efficiency and reduce pollution, various pieces of equipment are interconnected in ways that complicate their operation. Equipment failures or operator errors can lead to sudden and unexpected changes in the plant operation. If these disruptions to normal process operation exceed the capabilities of the operators or the capacity of the safety systems, a severe accident can occur, potentially resulting in a devastating fire, explosion, or toxic release.</p>
 <h4>Rules and Format</h4>
-<p>On spot registration.<br><br>
+<p>On spot registration with team of 2 members.<br><br>
 Carry valid ID cards for registration.<br><br>
 Participants will be shown a particular hazard and will be asked to identify the hazard and come up with solutions to avoid such hazards taking place in an industry. <br><br>
 All points carry equal weightage.<br><br>

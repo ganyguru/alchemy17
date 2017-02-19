@@ -25,7 +25,7 @@
 <p>In the past, treasures have always been associated with gold and precious stones. For all those Chemical Engineering enthusiasts with a knack for puzzle-solving, here is a golden opportunity. This Alchemy, galvanize your grey cells, swim through the intricate concepts of Chemical Engineering as you solve cryptic clues and unlock the prized treasure.</p>
 <h4>Rules and Format</h4>
 <p>On spot registration <br><br>
-Participants can participate with a maximum of 4 members in a team.<br><br>
+Participants can participate with a maximum of 3 or 4 members in a team.<br><br>
 Includes tech based clues, focusing on basic chemical engineering concepts. <br><br>
 Only 1st position is awarded, based on how fast the team finishes the hunt.<br><br>
 Judges decision is final.</p>

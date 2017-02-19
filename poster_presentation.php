@@ -25,7 +25,7 @@
         <h4>Description</h4>
 <p>Images rightly serve the best form of learning. They epitomize the subject in the most interactive way that get forever etched in our memories. But, creating such images require extra ordinarily creative minds. Alchemy presents to you the poster presentation contest and the perfect platform to flaunt your technical prudence in the most artistic manner.</p>
 <h4>Rules and Format</h4>
-<p>Contestants can participate either as individual or in teams with a maximum of 2 team members.<br><br>
+<p>Contestants can participate either as individual or in teams with a maximum of 3 team members.<br><br>
 Round 1: Abstract submission-Shortlist<br><br>
 Round 2: Final poster presentation.<br><br>
 Timeline:  8/03/2017, 5PM: Abstract submission: Shortlist ( send the abstract of the poster to alchemyevents17@gmail.com)<br><br>
