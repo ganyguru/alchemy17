@@ -1,0 +1,352 @@
+body
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+	background: #303030;
+	
+
+}
+.startscreen
+{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: calc(100% - 160px);
+	height: calc(100% - 160px);
+	background: #303030;
+	border-bottom: 4px solid #ECC82C;
+}
+.whitescreen
+{
+	background: #fff !important;
+	border: none !important;
+}
+.titledate
+{
+	position: absolute;
+	width: 300px;
+	height: 50px;
+	
+	color: white;
+	background: #303030;
+	text-align: center;
+	
+	line-height: 50px;
+	font-size: 20px;
+	top: 100%;
+	margin-top: -25px;
+	left: 50%;
+	margin-left: -150px;
+}
+.logo
+{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/gaali.png);
+	background-size: 250px 250px;
+	top: 0;
+	left: 50%;
+	margin-left: -125px;
+	
+}
+
+.colorlogo
+{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/colorlogo.jpg);
+	background-size: 250px 250px;
+	top: 0;
+	left: 50%;
+	margin-left: -125px;
+	
+}
+
+.wheel
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/wheel.png);
+	background-size: 100px 100px;
+	top: 97px;
+	left: 74px;	
+}
+
+.kodu
+{
+	position: absolute;
+	width: 161px;
+	height: 72px;
+	background-image: url(../img/mela.png);
+	background-size: 161px 72px;
+	top: 55px;
+	left: 41px;
+
+	/*
+	position: absolute;
+	width: 154px;
+	height: 66px;
+	background-image: url(../img/mela.png);
+	background-size: 154px 66px;
+	top: 55px;
+	left: 45px;
+	*/
+	
+}
+.btncontainer
+{
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	bottom: -260px;
+	position: relative;
+	height: 10px;
+	
+}
+.menubtn
+{
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	background: #303030;
+	border: 2px solid #ECC82C;
+	height: 40px;
+	color: #ECC82C;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	margin-top: 5px;
+}
+.backframe
+{
+	background: #303030;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	z-index: -1;
+}
+.newbadge
+{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	background-image: url(../img/new.png);
+	background-size: 30px 30px;
+}
+.menubtn:hover
+{
+	background: #ECC82C;
+	color: #303030;
+
+}
+
+.registerbtn
+{
+	background: #ECC82C !important;
+	text-transform: uppercase;
+	font-size: 17px !important;
+	color: #303030 !important;
+	border-width: 2px;
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+
+.registerbtn:hover
+{
+	background: #303030 !important;
+	color: #ECC82C !important;
+}
+.trapicons {
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    background: transparent;
+    top: 50%;
+    margin-top: -185px;
+    left: 0;
+}
+.footer
+{
+	width: 100%;
+	display: block;
+	position: absolute;
+	
+	
+	font-size: 13px;
+	left: 0;
+	color: #fff;
+	bottom: 0;
+	text-align: center;
+	padding-bottom: 5px;
+}
+#slideout>li>a
+{
+	color: #000 !important;
+}
+.trapicons a
+{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.trapicon {
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background: #303030;
+    border: 1px solid #ECC82C;
+    left: -110px;
+    cursor: pointer;
+}
+.sideabout {
+    margin-top: 0px;
+}
+.trapicon span {
+    color: #303030;
+    font-weight: 100;
+    
+    font-size: 15px;
+    margin-left: 15px;
+    line-height: 40px;
+}
+.trapicon img {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.trapicon:hover
+{
+  left: -3px;
+  background: #ECC82C;
+ 
+}
+.silping
+{
+	 -webkit-animation:silping 2s  infinite;
+    -moz-animation:silping 2s  infinite;
+    animation:silping 2s  infinite;
+}
+
+.rotate
+{
+	 -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+@-moz-keyframes silping {
+ 50% { 
+
+ 	position: absolute;
+	width: 154px;
+	height: 66px;
+	background-image: url(../img/keela.png);
+	background-size: 154px 66px;
+	top: 55px;
+	left: 45px;
+
+ } 
+100%
+{
+	position: absolute;
+	width: 161px;
+	height: 72px;
+	background-image: url(../img/mela.png);
+	background-size: 161px 72px;
+	top: 55px;
+	left: 41px;
+
+}
+}
+
+@-webkit-keyframes silping {
+ 50% { 
+
+ 	position: absolute;
+	width: 154px;
+	height: 66px;
+	background-image: url(../img/keela.png);
+	background-size: 154px 66px;
+	top: 55px;
+	left: 45px;
+
+ } 
+100%
+{
+	position: absolute;
+	width: 161px;
+	height: 72px;
+	background-image: url(../img/mela.png);
+	background-size: 161px 72px;
+	top: 55px;
+	left: 41px;
+
+}
+}
+
+@keyframes silping {
+ 50% { 
+
+ 	position: absolute;
+	width: 154px;
+	height: 66px;
+	background-image: url(../img/keela.png);
+	background-size: 154px 66px;
+	top: 55px;
+	left: 45px;
+
+ }
+ 100%
+ {
+ 	position: absolute;
+	width: 161px;
+	height: 72px;
+	background-image: url(../img/mela.png);
+	background-size: 161px 72px;
+	top: 55px;
+	left: 41px;
+
+ }
+}
+
+
+@media (max-width:641px)  { .titledate{display: none !important;}
+ .startscreen{border-bottom: none !important;} 
+ .trapicons{display: none !important;}
+}
+@media (max-width:961px)  { .black-text div .s2{display: none !important;} .card-title{margin-top: 32px !important;} }
