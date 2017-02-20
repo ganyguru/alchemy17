@@ -27,7 +27,7 @@ while($row=mysqli_fetch_array($res))
 if($row['email']==$maile)
   {  $err=1;
   $maile="";
-   $mailErr="User already exists'";
+   $mailErr="User already exists!!";
   break;
 }
 }
@@ -39,28 +39,24 @@ if ($response.success == false)
 }
 if($err==0)
 {
-	$query1="INSERT INTO Registration(email) values('$maile')";
+  $uniqueid="";
+  $uniqueid="ALC".strtoupper(uniqid());
+	$query1="INSERT INTO Registration(email,aid) values('$maile','$uniqueid')";
 $result=mysqli_query($con,$query1)
 or die('error querying 2');
-$resultt = mysqli_query($con,"SELECT id FROM Registration where email='$maile'");
-$max_public_id = mysqli_fetch_array($resultt,MYSQLI_NUM);
-$tid=$max_public_id[0];
-if($tid<10)
-  {
-    $token="ALC00".$tid;
-  }
-  else if($tid<100)
-  {
-    $token="ALC0".$tid;
-  }
-  else
-  {
-    $token="ALC".$tid;
-  }
-  $query3="UPDATE Registration set aid='$token' where id = '".$tid."'";
-$result2=mysqli_query($con,$query3)
-or die($tid);
-$mailErr="Thanks for Registering! Your Alchemy Unique ID is - <b>".$token."</b>";
+
+$mailErr="Thanks for Registering!\nYour Alchemy Unique ID is - ".$uniqueid."\n Check your Email";
+
+
+    $to = $maile;
+    $headers = "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    $headers .= "From: Alchemy 2017 <admin@alchemy.nitt.edu>";
+    $subject = "Alchemy'17 Registration";
+    $txt = "<html><body>Hello,<br>Greetings from ChEA and Alchemy 2017!<br>Thank you for registering with us.<br><br>Your Alchemy ID is <u><b>".$uniqueid."</b></u>. You require this ID for getting registered for the events and workshops.<br>Kindly register your details <a href='https://goo.gl/forms/E7YbvlL3FCmh4arI2'>HERE</a> with the given Alchemy ID<br><br>For further details or queries feel free to contact us at-<br><br><a href='http://alchemy.nitt.edu'>alchemy.nitt.edu</a><br><br>Regards,<br><b>Team Alchemy'17</b><br><br><br><br><i><u>Note</u>:This is an auto-generated mail. Do not reply to this mail.</i></body></html>"; 
+mail($to,$subject,$txt,$headers);
+
+
+
 }
 echo $mailErr;
  }

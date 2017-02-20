@@ -2,7 +2,123 @@ body
 {
 	font-family: 'Josefin Sans', sans-serif;
 }
+.cholder
+{
+left:10%;
+text-align:center;
+position:relative;
+width:80%;
+height:auto;
+}
+.cbox
+{
+display:inline-block;
+text-align:center;
+width:180px;
+height:auto;
+padding:10px;
 
+}
+.cbox span
+{
+line-height:15px;
+font-size:10px;
+text-transform:none;
+}
+.ease
+{
+-webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.cimg
+{
+-webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+cursor:pointer;
+-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+border-radius:100%;
+background-size:contain;
+width:160px;
+height:160px;
+}
+.cimg:hover
+{
+-webkit-filter: grayscale(0%);
+
+  filter: grayscale(0%);
+}
+.c1
+{
+	background-image: url(../img/contact/anushka.jpg);
+	background-size: 180px 180px;
+}
+.c2
+{
+	background-image: url(../img/contact/7oc.jpg);
+	background-size: 180px 180px;
+}
+.c3
+{
+	background-image: url(../img/contact/sanjo.jpg);
+	background-size: 180px 180px;
+}
+.c4
+{
+	background-image: url(../img/contact/pooja.jpg);
+	background-size: 180px 180px;
+}
+.c5
+{
+	background-image: url(../img/contact/yathu.jpg);
+	background-size: 180px 180px;
+}
+.c6
+{
+	background-image: url(../img/contact/suri.jpg);
+	background-size: 180px 180px;
+}
+.c7
+{
+	background-image: url(../img/contact/lava.jpg);
+	background-size: 180px 180px;
+}
+.c8
+{
+	background-image: url(../img/contact/hari.jpg);
+	background-size: 180px 180px;
+}
+.c9
+{
+	background-image: url(../img/contact/gany.jpg);
+	background-size: 180px 180px;
+}
+
+.c10
+{
+	background-image: url(../img/contact/sinha.jpg);
+	background-size: 180px 180px;
+}
+.c11
+{
+	background-image: url(../img/contact/abhi.jpg);
+	background-size: 180px 180px;
+}
+.c12
+{
+	background-image: url(../img/contact/babai.jpg);
+	background-size: 180px 180px;
+}
+.c13
+{
+	background-image: url(../img/contact/panda.jpg);
+	background-size: 180px 180px;
+}
 .wrapper
 {
 	position: absolute;
@@ -348,5 +464,9 @@ body
 @media (max-width:641px)  { .titledate{display: none !important;}
  .startscreen{border-bottom: none !important;} 
  .trapicons{display: none !important;}
+ .footer{display: none !important;}
+ .rc-anchor-normal-footer{display: none !important;}
+ .rc-anchor{width: 200px !important;}
+ .wrapper{overflow-x: hidden !important;}
 }
 @media (max-width:961px)  { .black-text div .s2{display: none !important;} .card-title{margin-top: 32px !important;} }

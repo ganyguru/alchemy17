@@ -10,7 +10,7 @@
             <center><div class="row">
 
                   <div class="col s2" style="height: 100px;">
-                  <img src="img/colorlogo.jpg" width="100px">
+                  <a href="index.php"><img src="img/colorlogo.jpg" width="100px"></a>
                   </div>
               <div class="col s10" style="line-height: 100px;">
               <span class="card-title" style="display: inline-block;">Poster presentation</span></div>
@@ -42,7 +42,7 @@ The board must be oriented in the "landscape" position (long dimension is horizo
 A banner displaying your poster title, name, and department (or class, if appropriate) should be positioned at top-center of the board (see Figure 1).<br><br>
 Make it obvious to the viewer how to progressively view the poster. The poster generally should read from left to right, and top to bottom. Numbering the individuals panels, or connecting them with arrows is a standard "guidance system".
 
-
+<center><img src="img/poster.gif"></center>
 
 <h5><u>Lettering:  </u></h5>
 Text should be readable from five feet away. Use a minimum font size of 18 points.<br><br>
@@ -86,7 +86,7 @@ It must be well documented and must contain the following sections: <br>
 <p>Lavanya: +91 80562 09684<br>Muni Kumar: +91 97904 79642</p>
       </div>
 
-<center><a href="#" target="_blank"><div class="menubtn registerbtn" disabled>Register</div></a></center>
+<center><a href="https://goo.gl/forms/wpqDpaabBfTiFFBr1" target="_blank"><div class="menubtn registerbtn">Register</div></a></center>
 <br><br>
 <footer class="page-footer" style="padding-top:0px;background-color: transparent;">
          

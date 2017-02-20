@@ -13,7 +13,7 @@
             <center><div class="row">
 
                   <div class="col s2" style="height: 100px;">
-                  <img src="img/colorlogo.jpg" width="100px">
+                  <a href="index.php"><img src="img/colorlogo.jpg" width="100px"></a>
                   </div>
               <div class="col s10" style="line-height: 100px;">
               <span class="card-title" style="display: inline-block;">Chem Quiz</span></div>
@@ -41,7 +41,7 @@ Judges decision is final</p>
 <p>Lavanya: +91 80562 09684</p>
       </div>
 
-<center><a href="#"><div class="menubtn registerbtn" disabled>Coming Soon</div></a></center>
+<center><a href="https://goo.gl/forms/LH61JzcSQ2BpYKAh1" target="_blank"><div class="menubtn registerbtn">Register</div></a></center>
 <br><br>
 <footer class="page-footer" style="padding-top:0px;background-color: transparent;">
          

@@ -11,7 +11,7 @@
             <center><div class="row">
 
                   <div class="col s2" style="height: 100px;">
-                  <img src="img/colorlogo.jpg" width="100px">
+                  <a href="index.php"><img src="img/colorlogo.jpg" width="100px"></a>
                   </div>
               <div class="col s10" style="line-height: 100px;">
               <span class="card-title" style="display: inline-block;">Chemi-Connexion</span></div>
@@ -46,7 +46,7 @@ Any sort of misbehavior (screaming/shouting/laughing) will be awarded negative p
 <p>Lavanya: +91 80562 09684<br>Shruti Nambiar: +91 95973 12042</p>
       </div>
 
-<center><a href="#"><div class="menubtn registerbtn" disabled>Coming Soon</div></a></center>
+<center><a href="https://goo.gl/forms/71sB0XpM0OyQ4o5a2" target="_blank"><div class="menubtn registerbtn">Register</div></a></center>
 <br><br>
 <footer class="page-footer" style="padding-top:0px;background-color: transparent;">
          

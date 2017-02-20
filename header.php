@@ -6,7 +6,8 @@
 <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-      <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
+      <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg"> 
+      <script src='https://www.google.com/recaptcha/api.js'></script>
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -54,7 +55,8 @@
             <a class="collapsible-header">Workshops<i class="material-icons">arrow_drop_down</i></a>
             <div class="collapsible-body">
               <ul>
-                <li><a href="#!">Coming Soon!</a></li>
+                <li><a href="matlab.php">MATLAB</a></li>
+                 <li><a href="aspen_hysys.php">ASPEN HYSYS</a></li>
                 
               </ul>
             </div>
@@ -80,9 +82,9 @@
 
     <li><div class="divider"></div></li>
     
-    <li><a class="waves-effect" href="coming_soon.php" target="_blank">About</a></li>
-    <li><a class="waves-effect" href="coming_soon.php" target="_blank">Accomodation</a></li>
-    <li><a class="waves-effect" href="coming_soon.php" target="_blank">Contact</a></li>
+    <li><a class="waves-effect" href="about.php" target="_blank">About</a></li>
+    <li><a class="waves-effect" href="accomodation.php" target="_blank">Accomodation</a></li>
+    <li><a class="waves-effect" href="contact.php" target="_blank">Contact</a></li>
     <li><a class="waves-effect" href="coming_soon.php" target="_blank">Schedule</a></li>
   </ul>
 

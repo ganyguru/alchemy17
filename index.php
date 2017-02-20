@@ -30,7 +30,8 @@
         <center><img src="img/colorlogo.jpg" style="width: 200px;"></center>
       </div>    
     </div></li>    
-    <li><a href="#!">Coming Soon!</a></li>
+    <li><a href="matlab.php">MATLAB</a></li>
+    <li><a href="aspen_hysys.php">ASPEN HYSYS</a></li>
    
   </ul>
 
@@ -67,7 +68,7 @@
 
 <a href="coming_soon.php" target="_blank"><div class="menubtn"><span class="newbadge"></span>Panel Discussion</div></a> <div data-activates="events" class="menubtn eventsbtn" >Events</div>   <div data-activates="workshops" class="menubtn workshopsbtn">Workshops</div>    <div data-activates="lectures" class="menubtn lecturesbtn">Guest Lectures</div>
 <br><br>
-<a href="#" target="_blank" style="display: none;"><div class="menubtn registerbtn" disabled>Register</div></a>
+<a href="register.php" target="_blank"><div class="menubtn registerbtn">Register</div></a>
 
 </div>
 
@@ -80,23 +81,23 @@
 <div class="trapicons">
 
 
-				<a href="coming_soon.php" target="_blank"><div class="sideabout trapicon">
+				<a href="about.php" ><div class="sideabout trapicon">
 					
 					<span>About</span> <img src="img/about.png">
 
 				</div></a>
 
 
-				<a href="coming_soon.php" target="_blank"><div class="sideacco trapicon">
+				<a href="accomodation.php" ><div class="sideacco trapicon">
 					<span>Accomodation</span> <img src="img/acco.png">
 				</div></a>
 
 
-				<a href="coming_soon.php" target="_blank"><div class="sidecontact trapicon">
+				<a href="contact.php" ><div class="sidecontact trapicon">
 					<span>Contacts</span> <img src="img/contacts.png">
 				</div></a>
 
-				<a href="coming_soon.php" target="_blank"><div class="sidesch trapicon">
+				<a href="coming_soon.php" ><div class="sidesch trapicon">
 					<span>Schedule</span> <img src="img/schedule.png">
 				</div></a>
 					

@@ -11,10 +11,10 @@
             <center><div class="row">
 
                   <div class="col s2" style="height: 100px;">
-                  <img src="img/colorlogo.jpg" width="100px">
+                  <a href="index.php"><img src="img/colorlogo.jpg" width="100px"></a>
                   </div>
               <div class="col s10" style="line-height: 100px;">
-              <span class="card-title" style="display: inline-block;">Chemi-Connexion</span></div>
+              <span class="card-title" style="display: inline-block;">Model Making</span></div>
               </div></center>
             </div>
             
@@ -39,7 +39,7 @@ Showcase your model during ALCHEMY in front of experienced panel of judges</p>
 <p>Lavanya: +91 80562 09684<br>Raghavendra: +91 82391 21430</p>
       </div>
 
-<center><a href="#"><div class="menubtn registerbtn" disabled>Coming Soon</div></a></center>
+<center><a href="https://goo.gl/forms/vXMIsp7FaCePPFE63" target="_blank"><div class="menubtn registerbtn">Register</div></a></center>
 <br><br>
 <footer class="page-footer" style="padding-top:0px;background-color: transparent;">
          
