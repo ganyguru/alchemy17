@@ -51,6 +51,7 @@
 
 
 <div class="startscreen">
+<a href="http://www.uniqtechnologies.co.in/" target="_blank"><div class="uniq"></div></a>
 <div class="logo">
 
 <div class="wheel rotate">
@@ -68,7 +69,7 @@
 
 <a href="coming_soon.php" target="_blank"><div class="menubtn"><span class="newbadge"></span>Panel Discussion</div></a> <div data-activates="events" class="menubtn eventsbtn" >Events</div>   <div data-activates="workshops" class="menubtn workshopsbtn">Workshops</div>    <div data-activates="lectures" class="menubtn lecturesbtn">Guest Lectures</div>
 <br><br>
-<a href="register.php" target="_blank"><div class="menubtn registerbtn">Register</div></a>
+<a href="register.php"><div class="menubtn registerbtn">Get Alchemy ID</div></a> <a href="https://goo.gl/qn5C8l" target="_blank"><div class="menubtn registerbtn">Register</div></a>
 
 </div>
 

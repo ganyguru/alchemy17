@@ -20,7 +20,7 @@
         </div>
 </div>
 
-<div class="menubtn registerbtn" id="register">Register</div><br><center><br>
+<div class="menubtn registerbtn" id="register" style="font-size: 10px !important;">Get/Check Alchemy ID</div><br><center><br>
 <div class="g-recaptcha" data-sitekey="6Lfi4hkTAAAAAN_jxtacgn6K_FJxt1jq6vWJgaQv"></div></center>
 </div>
 
@@ -34,6 +34,18 @@
 
 				<span class="footer" style="color:#000;">Made with <span style="color:red;">&hearts;</span> by <a href="https://www.facebook.com/GaneGuru" target="_blank" style="color: #ECC82C !important;">Ganesh Raghavendran</a></span>
 </div>
+
+
+
+<div id="alcid" class="modal">
+    <div class="modal-content">
+     
+    </div>
+   
+  </div>
+
+
+
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript">
@@ -51,9 +63,11 @@ if ($("#g-recaptcha-response").val()) {
         captcha:$("#g-recaptcha-response").val()
     },
     function(data, status){
-        alert(data);
+        $(".modal-content").html(data);
         grecaptcha.reset();
         $(".loadergif").hide();
+        $(".modal").modal();
+        $(".modal").modal('open');
     });
 }
 else

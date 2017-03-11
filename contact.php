@@ -11,7 +11,7 @@
             <center><div class="row">
 
                   <div class="col s2" style="height: 100px;">
-                  <img src="img/colorlogo.jpg" width="100px">
+                  <a href="index.php"><img src="img/colorlogo.jpg" width="100px"></a>
                   </div>
               <div class="col s10" style="line-height: 100px;">
               <span class="card-title" style="display: inline-block;">Contacts - Alchemy'17</span></div>

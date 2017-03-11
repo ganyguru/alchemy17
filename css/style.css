@@ -10,6 +10,16 @@ position:relative;
 width:80%;
 height:auto;
 }
+.uniq
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 106px;
+	height: 37px;
+	background-image: url(../img/UNIQ.jpg);
+	background-size: 106px 37px;
+}
 .cbox
 {
 display:inline-block;
@@ -462,7 +472,7 @@ height:160px;
 
 
 @media (max-width:641px)  { .titledate{display: none !important;}
- .startscreen{border-bottom: none !important;} 
+ .startscreen{border-bottom: none !important;height: 100% !important;} 
  .trapicons{display: none !important;}
  .footer{display: none !important;}
  .rc-anchor-normal-footer{display: none !important;}

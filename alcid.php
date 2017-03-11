@@ -10,24 +10,27 @@ $maile="";
  if ($_SERVER["REQUEST_METHOD"] == "POST") {
 if(empty($_POST["email"]))
 {
-$mailErr="Enter your Email";
+$mailErr="<h4>Registration Failed!</h4><p>Enter your Email</p>";
 $err=1;
 }else
 {
 $maile = test_input($_POST["email"]);
 if (!filter_var($maile, FILTER_VALIDATE_EMAIL)) {
-  $mailErr = "Invalid email format"; 
+  $mailErr = "<h4>Registration Failed!</h4><p>Invalid email format</p>"; 
   $err=1;
 $maile="";
 }
 }
 $res=mysqli_query($con,"select * from Registration");
+$alchemyid="";
 while($row=mysqli_fetch_array($res))
 {
+
 if($row['email']==$maile)
   {  $err=1;
   $maile="";
-   $mailErr="User already exists!!";
+  $alchemyid=$row['aid'];
+   $mailErr="<h4>Already Registered!</h4><p>Your Alchemy ID is ".$alchemyid."<b></b><br>Click <a href='https://goo.gl/forms/E7YbvlL3FCmh4arI2' target='_blank'>here</a> to Register your details</p>";
   break;
 }
 }
@@ -35,7 +38,7 @@ if($row['email']==$maile)
 if ($response.success == false)
 {
   $err=1;
-  $mailErr="SPAM";
+  $mailErr="<h4>Registration Failed!</h4><p>SPAM</p>";
 }
 if($err==0)
 {
@@ -45,17 +48,8 @@ if($err==0)
 $result=mysqli_query($con,$query1)
 or die('error querying 2');
 
-$mailErr="Thanks for Registering!\nYour Alchemy Unique ID is - ".$uniqueid."\n Check your Email";
-
-
-    $to = $maile;
-    $headers = "Content-Type: text/html; charset=ISO-8859-1\r\n";
-    $headers .= "From: Alchemy 2017 <admin@alchemy.nitt.edu>";
-    $subject = "Alchemy'17 Registration";
-    $txt = "<html><body>Hello,<br>Greetings from ChEA and Alchemy 2017!<br>Thank you for registering with us.<br><br>Your Alchemy ID is <u><b>".$uniqueid."</b></u>. You require this ID for getting registered for the events and workshops.<br>Kindly register your details <a href='https://goo.gl/forms/E7YbvlL3FCmh4arI2'>HERE</a> with the given Alchemy ID<br><br>For further details or queries feel free to contact us at-<br><br><a href='http://alchemy.nitt.edu'>alchemy.nitt.edu</a><br><br>Regards,<br><b>Team Alchemy'17</b><br><br><br><br><i><u>Note</u>:This is an auto-generated mail. Do not reply to this mail.</i></body></html>"; 
-mail($to,$subject,$txt,$headers);
-
-
+$mailErr=" <h4>Thanks for Registering</h4>
+      <p>Your Alchemy ID is ".$uniqueid."<b></b><br>Click <a href='https://goo.gl/forms/E7YbvlL3FCmh4arI2' target='_blank'>here</a> to Register your details</p>";
 
 }
 echo $mailErr;
